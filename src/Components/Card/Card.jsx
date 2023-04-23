@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = (props) => {
 
-    const { title, image } = props.singleNews;
+    const { id, title, image } = props.singleNews;
 
 
     return (
         <div>
 
-          <a href="">
+          <Link to={`/newsdetails/${id}`}>
           <div className="card bg-base-100">
                 <figure><img src={image} alt="Shoes" /></figure>
                 <div className="card-body px-2 py-3">
@@ -16,7 +17,7 @@ const Card = (props) => {
 
                 </div>
             </div>
-          </a>
+          </Link>
 
         </div>
     );

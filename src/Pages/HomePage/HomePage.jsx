@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import AwamiLeague from '../../Components/AwamiLeague/AwamiLeague';
+import Bnp from '../../Components/Bnp/Bnp';
 
 const HomePage = () => {
 
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch("data/Data.json")
+        fetch("Data.json")
             .then(res => res.json())
             .then(data => setData(data))
     }, [])
@@ -17,7 +18,10 @@ const HomePage = () => {
             <AwamiLeague data={data}></AwamiLeague>
             </div>
             <div>
-                
+            <Bnp data={data}></Bnp>
+            </div>
+            <div>
+
             </div>
         </div>
     );

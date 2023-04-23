@@ -1,7 +1,6 @@
 import React from 'react';
-
-import HomePage from './../Pages/HomePage/HomePage';
 import Header from '../Components/Header/Header';
+import { Outlet } from 'react-router-dom';
 
 
 const Main = () => {
@@ -9,7 +8,7 @@ const Main = () => {
         <div className='container mx-auto'>
 
            <Header/>
-            <HomePage></HomePage>
+          <Outlet></Outlet>
         </div>
     );
 };
