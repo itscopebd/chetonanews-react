@@ -3,6 +3,28 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
+}
+
+/* slider arrow  */
+
+.slick-prev,
+.slick-next {
+
+    width: 30px !important;
+    height: 30px !important;
+    opacity: 1;
+    line-height: 50px !important;
+  background-color: green !important;
+    z-index: 9999;
+    border-radius: 50% !important;
+}
+
+.slick-prev {
+    left: 5px !important;
+}
+
+.slick-next {
+    right: 5px !important;
 }
