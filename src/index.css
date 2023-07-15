@@ -28,3 +28,18 @@
 .slick-next {
     right: 5px !important;
 }
+
+/* polities section  */
+
+.react-tabs__tab-list {
+    border-bottom: 1px solid green !important;
+   
+}
+
+/* card custom hover  */
+/* .custom__hover:hover img{
+opacity: .7 !important;
+} */
+.custom__hover:hover h2{
+    color: rgb(207, 21, 21) !important;
+}

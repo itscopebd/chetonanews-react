@@ -3,6 +3,7 @@ import AwamiLeague from '../../Components/AwamiLeague/AwamiLeague';
 import Bnp from '../../Components/Bnp/Bnp';
 import RightSideBar from '../../Shared/RightSideBar/RightSideBar';
 import Banner from '../../Components/Banner/Banner';
+import Politics from '../../Components/Politics/Politics';
 
 const HomePage = () => {
 
@@ -17,16 +18,17 @@ const HomePage = () => {
     return (
         <div className='container mx-auto'>
             <Banner></Banner>
-            <div className='flex gap-5'>
-                <div className='w-8/12'>
+            <div className='flex gap-8'>
+                <div className='w-9/12'>
 
-                    <AwamiLeague data={data}></AwamiLeague>
-                    <Bnp data={data}></Bnp>
+                    {/* <AwamiLeague data={data}></AwamiLeague>
+                    <Bnp data={data}></Bnp> */}
+                    <Politics></Politics>
 
 
                 </div>
 
-                <div className='w-4/12'>
+                <div className='w-3/12'>
                     <RightSideBar></RightSideBar>
                 </div>
 

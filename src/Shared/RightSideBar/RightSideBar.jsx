@@ -16,8 +16,10 @@ const RightSideBar = () => {
                        
                         <Tab className="bg-gray-600 w-6/12 text-center text-white py-2 cursor-pointer rounded-md">সর্বাধিক পঠিত</Tab>
                     </TabList>
+                    <div className='h-96 overflow-x-auto'>
                     <TabPanel><LatestNews/></TabPanel>
                     <TabPanel>ererere</TabPanel>
+                    </div>
                 </Tabs>
         </div>
     );

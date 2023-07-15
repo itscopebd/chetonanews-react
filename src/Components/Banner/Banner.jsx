@@ -20,7 +20,7 @@ const Banner = () => {
         <div>
             <div class="grid grid-cols-4 gap-4">
 
-                <div class="col-span-2 row-span-6 bg-red-500 rounded-md relative">
+                <div class="col-span-2 row-span-6 rounded-md relative">
                     <Slider {...settings}>
                         <div>
                             <img className='w-full h-full rounded-md' src={featuredImage} alt="" />
@@ -48,25 +48,25 @@ const Banner = () => {
                         </div>
                     </Slider>
                 </div>
-                <div class="col-span-1 row-span-3 bg-red-500 rounded-md relative">
+                <div class="col-span-1 row-span-3 rounded-md relative">
                     <img className='w-full rounded-md' src={featuredImage} alt="" />
                     <div className='bg-gray-400 text-center flex items-center justify-center bg-opacity-50 h-24 absolute bottom-0 w-full'>
                         <h4 className='text-4xl text-black'>Title Here </h4>
                     </div>
                 </div>
-                <div class="col-span-1 row-span-3 bg-red-500 rounded-md relative">
+                <div class="col-span-1 row-span-3 rounded-md relative">
                     <img className='w-full rounded-md' src={featuredImage} alt="" />
                     <div className='bg-gray-400 text-center flex items-center justify-center bg-opacity-50 h-24 absolute bottom-0 w-full'>
                         <h4 className='text-4xl text-black'>Title Here </h4>
                     </div>
                 </div>
-                <div class="col-span-1 row-span-3 bg-red-500 rounded-md relative">
+                <div class="col-span-1 row-span-3 rounded-md relative">
                     <img className='w-full rounded-md' src={featuredImage} alt="" />
                     <div className='bg-gray-400 text-center flex items-center justify-center bg-opacity-50 h-24 absolute bottom-0 w-full'>
                         <h4 className='text-4xl text-black'>Title Here </h4>
                     </div>
                 </div>
-                <div class="col-span-1 row-span-3 bg-red-500 rounded-md relative">
+                <div class="col-span-1 row-span-3 rounded-md relative">
                     <img className='w-full rounded-md' src={featuredImage} alt="" />
                     <div className='bg-gray-400 text-center flex items-center justify-center bg-opacity-50 h-24 absolute bottom-0 w-full'>
                         <h4 className='text-4xl text-black'>Title Here </h4>
