@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import BrekingNews from '../BrekingNews/BrekingNews';
 
 const Header = () => {
     const navBar = <>
@@ -12,8 +13,9 @@ const Header = () => {
         <li><Link className='text-white'>শিক্ষাঙ্গন</Link></li>
     </>
     return (
-        <div className='bg-green-600'>
-            <div className="container mx-auto">
+        <div>
+            <BrekingNews></BrekingNews>
+            <div className=" bg-green-600">
                 <div className="navbar px-0">
                     <div className="navbar-start">
                         <div className="dropdown">

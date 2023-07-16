@@ -8,10 +8,10 @@ const Main = () => {
     return (
 
         <>
-        <HeaderMiddle></HeaderMiddle>
-            <Header />
+       
             <div className='container mx-auto'>
-
+            <HeaderMiddle></HeaderMiddle>
+            <Header />
 
                 <Outlet></Outlet>
             </div>
