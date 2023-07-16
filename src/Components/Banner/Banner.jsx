@@ -18,7 +18,7 @@ const Banner = () => {
 
     return (
         <div>
-            <div class="grid grid-cols-4 gap-4">
+            <div class="grid grid-cols-4 gap-4 mt-2">
 
                 <div class="col-span-2 row-span-6 rounded-md relative">
                     <Slider {...settings}>

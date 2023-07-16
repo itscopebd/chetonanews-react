@@ -16,7 +16,7 @@ const HomePage = () => {
     }, [])
     // console.log(data)
     return (
-        <div className='container mx-auto'>
+        <>
             <Banner></Banner>
             <div className='flex gap-8'>
                 <div className='w-9/12'>
@@ -33,7 +33,7 @@ const HomePage = () => {
                 </div>
 
             </div>
-        </div>
+            </>
     );
 };
 
