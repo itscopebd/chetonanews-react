@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Components/Header/Header';
 import { Outlet } from 'react-router-dom';
 import HeaderMiddle from '../Components/HeaderMiddle/HeaderMiddle';
+import HeaderTop from '../Components/HeaderTop/HeaderTop';
 
 
 const Main = () => {
@@ -10,6 +11,7 @@ const Main = () => {
         <>
        
             <div className='container mx-auto'>
+                <HeaderTop></HeaderTop>
             <HeaderMiddle></HeaderMiddle>
             <Header />
 

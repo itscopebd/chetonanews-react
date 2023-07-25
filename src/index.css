@@ -7,6 +7,32 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+
+/* header css  */
+/* .custom__header::before{
+    
+        background: green;
+        content: "";
+        height: 100%;
+        left: -5px;
+        position: absolute;
+        top: 0;
+        width: 5px;
+        z-index: 99;
+    
+}
+.custom__header::before, .custom__header::after {
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #03717f;
+    border-top: 5px solid transparent;
+    bottom: -6px;
+    content: "";
+    height: 0;
+    left: -5px;
+    position: absolute;
+    width: 5px;
+} */
 /* slider arrow  */
 
 .slick-prev,
@@ -43,3 +69,5 @@ opacity: .7 !important;
 .custom__hover:hover h2{
     color: rgb(207, 21, 21) !important;
 }
+
+

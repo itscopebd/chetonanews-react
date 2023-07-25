@@ -4,19 +4,19 @@ import BrekingNews from '../BrekingNews/BrekingNews';
 
 const Header = () => {
     const navBar = <>
-        <li><Link className='text-white'>জাতীয়</Link></li>
-        <li><Link className='text-white'>রাজনীতি</Link></li>
-        <li><Link className='text-white'>অর্থনীতি</Link></li>
-        <li><Link className='text-white'>আন্তর্জাতিক</Link></li>
-        <li><Link className='text-white'>খেলা</Link></li>
-        <li><Link className='text-white'>বিনোদন</Link></li>
-        <li><Link className='text-white'>শিক্ষাঙ্গন</Link></li>
+        <li><Link className='text-white text-sm'>জাতীয়</Link></li>
+        <li><Link className='text-white text-sm'>রাজনীতি</Link></li>
+        <li><Link className='text-white text-sm'>অর্থনীতি</Link></li>
+        <li><Link className='text-white text-sm'>আন্তর্জাতিক</Link></li>
+        <li><Link className='text-white text-sm'>খেলা</Link></li>
+        <li><Link className='text-white text-sm'>বিনোদন</Link></li>
+        <li><Link className='text-white text-sm'>শিক্ষাঙ্গন</Link></li>
     </>
     return (
         <div>
             <BrekingNews></BrekingNews>
-            <div className=" bg-green-600">
-                <div className="navbar px-0">
+            <div className=" bg-green-600 custom__header relative">
+                <div className="navbar min-h-[3rem] p-0">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,7 +26,7 @@ const Header = () => {
                                 {navBar}
                             </ul>
                         </div>
-                        <NavLink to="/" className="btn btn-ghost normal-case text-xl pl-0">daisyUI</NavLink>
+                        <NavLink to="/" className="btn btn-ghost normal-case text-xl pl-0">Home</NavLink>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu menu-horizontal px-1">

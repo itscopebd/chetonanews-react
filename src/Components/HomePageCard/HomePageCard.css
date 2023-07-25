@@ -1,0 +1,79 @@
+/*=====================================
+ home page news card styles start here 
+=======================================*/
+.thumb {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+/* .thumb:hover image{
+    transform: scale(1);
+/* } */
+.thumb:after {
+    content: "";
+    background: linear-gradient(to top, rgba(32, 22, 84, 0.6) 52%, rgba(0, 0, 100, 0));
+    height: 70%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    z-index: 3;
+    transition: 0.4s;
+}
+
+ .thumb:before {
+    content: "";
+    background: linear-gradient(to top, rgba(32, 22, 84, 0.38) 52%, rgba(0, 0, 100, 0));
+    height: 75%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    z-index: 4;
+    transition: 0.4s;
+    visibility: hidden;
+    opacity: 0;
+} 
+
+
+
+
+
+/* .thumb::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 100 !important;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.thumb:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+} */
+
+
+
+
+
+/*==================================
+ home page news card styles end here
+====================================*/

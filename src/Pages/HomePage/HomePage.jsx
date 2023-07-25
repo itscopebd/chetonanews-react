@@ -4,6 +4,7 @@ import Bnp from '../../Components/Bnp/Bnp';
 import RightSideBar from '../../Shared/RightSideBar/RightSideBar';
 import Banner from '../../Components/Banner/Banner';
 import Politics from '../../Components/Politics/Politics';
+import HomePageCard from '../../Components/HomePageCard/HomePageCard';
 
 const HomePage = () => {
 
@@ -25,7 +26,7 @@ const HomePage = () => {
                     <Bnp data={data}></Bnp> */}
                     <Politics></Politics>
 
-
+                    <HomePageCard></HomePageCard>
                 </div>
 
                 <div className='w-3/12'>
@@ -33,7 +34,7 @@ const HomePage = () => {
                 </div>
 
             </div>
-            </>
+        </>
     );
 };
 

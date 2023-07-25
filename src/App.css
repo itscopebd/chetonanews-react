@@ -1,0 +1,27 @@
+.thumb:after {
+    content: "";
+    background: linear-gradient(to top, rgba(32, 22, 84, 0.6) 52%, rgba(0, 0, 100, 0));
+    height: 70%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    z-index: 3;
+    transition: 0.4s;
+}
+
+ .thumb:before {
+    content: "";
+    background: linear-gradient(to top, rgba(32, 22, 84, 0.38) 52%, rgba(0, 0, 100, 0));
+    height: 75%;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    width: 100%;
+    z-index: 4;
+    transition: 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}

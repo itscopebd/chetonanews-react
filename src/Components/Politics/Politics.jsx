@@ -43,7 +43,7 @@ const Politics = () => {
                             }
                         </div>
                         <div className='flex justify-center w-full mt-7 '>
-                            <button className='bg-green-400 btn btn-md border-none hover:bg-transparent hover:border-green-400 hover:border-2 hover:text-red-500'>আরো দেখুন</button>
+                            <button className='bg-green-400 btn btn-md border-none hover:bg-transparent hover:border-green-400 hover:border-2 hover:text-red-500'> আরও সংবাদ </button>
                         </div>
                     </div>
 
@@ -58,7 +58,7 @@ const Politics = () => {
 
                         </div>
                         <div className='flex justify-center w-full mt-7'>
-                            <button className='bg-green-400 btn btn-md border-none hover:bg-transparent hover:border-green-400 hover:border-2 hover:text-red-500'>আরো দেখুন</button>
+                            <button className='bg-green-400 btn btn-md border-none hover:bg-transparent hover:border-green-400 hover:border-2 hover:text-red-500'> আরও সংবাদ </button>
                         </div>
                     </div>
 
